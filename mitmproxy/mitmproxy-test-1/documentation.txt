@@ -1,0 +1,6 @@
+shohoz - working without signing up
+
+daraz and OnlineGD needs a contact number!
+
+uber, pathao - do not trust the proxy certificate
+The client does not trust the proxy's certificate

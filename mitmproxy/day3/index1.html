@@ -1,0 +1,21 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-time Data Monitor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <h1>Real-time Data Monitor</h1>
+    <ul id="data-list"></ul> <!-- Create an empty list to display data -->
+    <script>
+        var socket = io.connect(); // Connect to the server
+        socket.on('new_data', function(data) {
+            var dataList = document.getElementById('data-list');
+            var listItem = document.createElement('li');
+            listItem.innerText = data;
+            dataList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>

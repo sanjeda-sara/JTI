@@ -1,0 +1,7 @@
+mitproxy -m 8080
+
+mitmdump -s my_mitmproxy.py
+
+vs
+
+mitmproxy -s my_mitmproxy.py
