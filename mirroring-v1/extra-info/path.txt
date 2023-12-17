@@ -1,0 +1,7 @@
+C:\Users\User_01\Downloads\scrcpy-win64-v2.1.1\scrcpy-win64-v2.1.1.exe
+
+cd C:\Users\User_01\Downloads\scrcpy-win64-v2.1.1\C:\Users\User_01\Downloads\scrcpy-win64-v2.1.1\scrcpy-win64-v2.1.1.exe --serial RF8RB08JNJM
+
+@echo off
+"C:\Users\User_01\Downloads\scrcpy-win64-v2.1.1\scrcpy.exe" --serial RF8RB08JNJM
+
